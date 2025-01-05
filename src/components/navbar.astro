@@ -1,0 +1,32 @@
+---
+import {Astronav,MenuItems,MenuIcon,Dropdown,DropdownItems,DropdownSubmenu} from "astro-navbar";
+---
+<div class=" flex justify-between gap-2 mx-auto container">
+<Astronav>
+    <div class="px-4">
+        <MenuItems class="textright flex">
+            <a href="/page1">Page 1</a>
+            <a href="/page2">Page 2</a>
+            <a href="/page3">Page 3</a>
+        <Dropdown class="group">
+        <button class="flex text-center">
+           <span>About</span>
+           <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="3"
+              stroke="currentColor"
+              class="w-3 h-3 mt-0.5 group-open:rotate-180">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
+           </svg>
+        </button>
+       <DropdownItems class="relative">
+        <a href="/page4">Page 4</a>
+        <a href="/page5">Page 5</a>
+        <a href="/page6">Page 6</a>
+   
+    </MenuItems>
+</Astronav>
+</div>
+</div>
