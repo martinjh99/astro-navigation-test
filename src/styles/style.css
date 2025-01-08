@@ -6,14 +6,14 @@ body {
 }
 
  .menu {
-        float:left;
+        float: left;
         margin-top: 10px;
         top: 0px;
-        left:20px;
-        width: 230px;
+        width: 260px;
+        padding: 0px;
 }
 
-.textright {
+.textright{
         margin-left: 250px;
         margin-right: 50px;
         margin-top: 10px;
@@ -40,14 +40,14 @@ body {
 
 }
 
+
 /* Menubar Classes */
 
-/* ul {
+ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
-        overflow: hidden;
-        position: sticky;
+        /* overflow: hidden; */
         top: 0px;
       }
       
@@ -65,8 +65,12 @@ li a:hover
         background-color: darkseagreen;
         color:black;
 
-      } */
+      }
  
 .hidden {
         display: none;
       }
+
+.martin{
+        padding: 10px;
+}
